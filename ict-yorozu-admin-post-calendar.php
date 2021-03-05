@@ -35,7 +35,7 @@ class ICTYorozuAdminPostCalendar
 			'edit.php',
 			__('Calendar', self::PLUGIN_DOMAIN ),
 			__('Calendar', self::PLUGIN_DOMAIN ),
-			'manage_options',
+			'edit_published_posts',
 			'post_calendar',
 			[$this, 'add_ict_yorozu_admin_calendar_page'],
 			10
